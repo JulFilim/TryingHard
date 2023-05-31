@@ -27,7 +27,7 @@ void PrintArray (double [] arr)
 {          
    int count = 0;  
    int size=arr.Length;      
-double[]arr2= new double[size];
+//double[]arr2= new double[size];
       for (int i = 0; i < arr.Length; i++) 
     {
         bool dup=false;
@@ -38,10 +38,10 @@ double[]arr2= new double[size];
     
      if (dup==false)
         {
-        arr2[count]=arr[i];
-        count++;
+        // arr2[count]=arr[i];
+        // count++;
         //System.Console.Write($"{arr2[count]} ");        
-        System.Console.Write($" {arr[i]}  ");        
+        System.Console.Write($" {arr[i]} ");        
       }  
       
     }  
